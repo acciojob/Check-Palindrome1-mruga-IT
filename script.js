@@ -12,10 +12,6 @@ function isPalindrome(s) {
   
   return true;
 }
-This function first converts the input string to lowercase and removes any non-alphanumeric characters using a regular expression. It then checks if the resulting string is a palindrome by iterating over the characters from both ends of the string and comparing them. If at any point the characters are different, the function returns false. If the loop completes without finding any differences, the function returns true.
-
-For example, isPalindrome("race a car") would return false because the string "raceacar" is not a palindrome.
-
 
 
 
