@@ -1,4 +1,4 @@
-complete the given function
+//complete the given function
 
 function palindrome(str){
  str.toLowerCase();
